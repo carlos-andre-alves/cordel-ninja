@@ -54,7 +54,7 @@ header a:hover{
     background-color: rgba(0, 0, 0, 0.719);
 }
 .imagem2{
-    background: black url('imagens/wallpapersden.com_naruto-uzumaki-art-22_2627x2102.jpg') right center /cover no-repeat fixed;
+    background: black url('imagens/wallpapersden.com_naruto-uzumaki-art-22_2627x2102.jpg') center center /cover no-repeat fixed;
 }
 
 footer{
