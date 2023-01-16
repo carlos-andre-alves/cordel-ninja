@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Titulo';
+    src: url('fontes/ninja_naruto/njnaruto.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'Credito';
+    src: url('fontes/ninja_julietta/Ninja\ Julietta\ -\ TTF.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Cordel';
+    src: url('fontes/sriracha/Sriracha-Regular.ttf') format('truetype');
+}
+*{
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    margin-bottom: 60px;
+    padding: 30px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: 'Credito';
+}
+h1#titulo{
+    font: normal normal 5.7em 'Titulo';
+    padding-top: 30px;
+}
+header  a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+header a:hover{
+    color: rgb(134, 134, 134);
+}
+.normal{
+    font: normal normal 3.3em 'Cordel';
+    margin-left: 27px;
+    margin-bottom: 20vh;
+}
+.imagem{
+    background: black url('imagens/sasuke2.jpg') center center /cover no-repeat fixed;
+    
+}
+.texto{
+    font: normal normal 3.3em 'Cordel';
+    color: white;
+    margin-left: 27px;
+    margin-top: 97px;
+    margin-bottom: 20vh;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+.imagem2{
+    background: black url('imagens/wallpapersden.com_naruto-uzumaki-art-22_2627x2102.jpg') right center /cover no-repeat fixed;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font: normal normal 1.3em 'Times New Roman', Times, serif;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(99, 99, 99);
+    text-decoration: underline;
+}
