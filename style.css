@@ -24,7 +24,7 @@ header{
     font-family: 'Credito';
 }
 h1#titulo{
-    font: normal normal 5.7em 'Titulo';
+    font: normal normal 7.4vw 'Titulo';
     padding-top: 30px;
 }
 header  a{
@@ -36,7 +36,7 @@ header a:hover{
     color: rgb(134, 134, 134);
 }
 .normal{
-    font: normal normal 3.3em 'Cordel';
+    font: normal normal 4vw 'Cordel';
     margin-left: 27px;
     margin-bottom: 20vh;
 }
@@ -45,7 +45,7 @@ header a:hover{
     
 }
 .texto{
-    font: normal normal 3.3em 'Cordel';
+    font: normal normal 4vw 'Cordel';
     color: white;
     margin-left: 27px;
     margin-top: 97px;
@@ -54,14 +54,14 @@ header a:hover{
     background-color: rgba(0, 0, 0, 0.719);
 }
 .imagem2{
-    background: black url('imagens/wallpapersden.com_naruto-uzumaki-art-22_2627x2102.jpg') center center /cover no-repeat fixed;
+    background: black url('imagens/wallpapersden.com_naruto-uzumaki-art-22_2627x2102.jpg') center top /cover no-repeat fixed;
 }
 
 footer{
     background-color: black;
     color: white;
     text-align: center;
-    font: normal normal 1.3em 'Times New Roman', Times, serif;
+    font: normal normal 3.6vh 'Times New Roman', Times, serif;
 }
 footer a{
     color: white;
